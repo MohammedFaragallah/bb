@@ -1,0 +1,11 @@
+{{> header}}
+
+<h1 style="font-family: Palatino;font-size: 1.5em;">Hi, {{name}}</h1>
+<p style="color: #34495E;">Thank you for signing up. Please verify your email so you can reset your password if need
+  be.</p><a href="{{tokenLink}}"
+  style="color: #2980B9;display: block;text-align: center;text-decoration: none;padding: 0.5em;font-size: 1.2em;border: 5px solid #2980B9;border-radius: 3px;margin: 1em;margin-right: auto;margin-left: auto;"
+  class="reset-btn">Verify Email</a>
+<p style="color: #34495E;">You may still use the site if your email is unverified but we can't send you emails.</p>
+{{> returnEmail}}
+
+{{> footer}}

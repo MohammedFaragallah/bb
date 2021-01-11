@@ -1,0 +1,12 @@
+<p style="color: grey;font-size: 0.9em;text-align: center;margin-bottom: 0;margin-top: 2em;" class="text-small">
+  If you didn't request this change please
+</p>
+<p style="text-align: center;" class="text-small">
+  {{#with returnEmail}}
+  <a href="mailto:
+              {{email}}
+              ?subject={{subject}}&body={{body}}">
+    let us know
+  </a>
+  {{/with}}
+</p>

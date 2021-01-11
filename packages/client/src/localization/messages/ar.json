@@ -1,0 +1,116 @@
+{
+	"author": {
+		"joined": "سجل :",
+		"viewAll": "شاهد كل {label} من {author}",
+		"writtenBy": "بقلم {author}"
+	},
+	"emptyCategory": {
+		"helpfulLinks": "المزيد من {label}",
+		"message": "لا يوجد {label} فى {categoryName} حتي الان"
+	},
+	"filter": {
+		"results": "النتائج: {total, number}"
+	},
+	"label": {
+		"apply": "تطبيق",
+		"cancel": "إلغاء",
+		"category": "تصنيف",
+		"confirm": "تأكيد",
+		"error": "خطا",
+		"go": "اذهب الى",
+		"height": "الطول",
+		"helpful": "روابط مفيدة",
+		"items": "{items, plural,one{قطعة واحدة}=2{قطعتين}other{# قطعة}}",
+		"lastUpdated": "اخر تحديث",
+		"lessThan": "اقل من",
+		"moreThan": "اكثر من",
+		"next": "التالي",
+		"notfound": "لا يوجد",
+		"previous": "السابق",
+		"readingTime": "{minutes, plural,one{دقيقة واحدة}=2{دقيقتين}other{# دقائق}} قراءة",
+		"related": "{label} ذات صلة",
+		"soon": "قريباً",
+		"submit": "إرسال",
+		"total": "اجمالي",
+		"views": "{views, plural,=0{لا مشاهدات}one{مشاهدة واحدة}two{مشاهدتين}other{# مشاهدات}}",
+		"weight": "الوزن",
+		"welcome": "مرحباً"
+	},
+	"login": {
+		"message": {
+			"addComment": "سجل دخول لاضافة تعليق"
+		}
+	},
+	"message": {
+		"add": "اضف",
+		"forgot": "فقدت كلمة المرور",
+		"login": "لديك حساب ؟ سجل دخول من هنا",
+		"logout": "",
+		"signup": "ليس لديك حساب ؟ سجل حساب من هنا"
+	},
+	"nav": {
+		"actions": {
+			"close": "اغلق القائمة",
+			"dashboard": "لوحة التحكم",
+			"language": "تغيير اللغة",
+			"login": "تسجيل دخول",
+			"logout": "تسجيل خروج",
+			"profile": "صفحة شخصية",
+			"theme": "تبديل الاضائة (قريبا)"
+		}
+	},
+	"pageTitle": {
+		"firstAddress": "العنوان الاساسي",
+		"secondAddress": "العنوان الثانوي",
+		"articles": "مقالات",
+		"cart": "عربة التسوق",
+		"champion": "بطل",
+		"community": "مجتمع",
+		"events": "احداث",
+		"exercises": "التمارين",
+		"forgot": "فقدت كلمة المرور",
+		"home": "الرئيسية",
+		"login": "سجل دخول",
+		"privacy": "الخصوصية",
+		"profile": "الملف الشخصي",
+		"reset": "كلمة مرور جديدة",
+		"signup": "سجل حساب جديد",
+		"sports": "رياضة",
+		"store": "متجر",
+		"terms": "الشروط والاحكام"
+	},
+	"search": {
+		"click": "اضغط هنا للبحث",
+		"placeholder": "اكتب هنا للبحث..."
+	},
+	"section": {
+		"latestArticles": "اخر المقالات"
+	},
+	"steps": {
+		"address": "عنوان الشحن",
+		"payment": "تفاصيل الدفع",
+		"review": "مراجعة الطلب"
+	},
+	"store": {
+		"addToCart": "اضف الى عربة التسوق",
+		"available": "{available, plural,=0{متاح}one{متاح}other{متاحة}}",
+		"checkout": "الشراء",
+		"flavor": "طعم",
+		"flavorRating": "تقييم الطعم الاجمالي",
+		"flavors": "{flavors, plural,=0{لايوجد اطعم}one{# طعم}two{# اطعم}other{# اطعم}}",
+		"forms": {
+			"Bars": "بار",
+			"Capsule": "كابسول",
+			"Liquid": "سائل",
+			"Other": "أخري",
+			"Powder": "باودر",
+			"Tablet": "حبوب",
+			"label": "جرعات"
+		},
+		"fromTo": "من {gt,number,EGP} الى {lt,number,EGP}",
+		"overview": "نظرة عامة على المنتج",
+		"price": "السعر",
+		"size": "حجم",
+		"sizes": "{sizes, plural,=0{لايوجد احجام}one{# حجم}two{# احجام}other{# احجام}}"
+	}
+}

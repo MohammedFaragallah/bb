@@ -1,0 +1,66 @@
+{
+  "app": "FREGO",
+  "authentication": {
+    "authStrategies": ["jwt", "local"],
+    "entity": "user",
+    "jwtOptions": {
+      "algorithm": "HS256",
+      "audience": "https://yourdomain.com",
+      "expiresIn": "1d",
+      "header": {
+        "typ": "access"
+      },
+      "issuer": "feathers"
+    },
+    "local": {
+      "passwordField": "password",
+      "usernameField": "email"
+    },
+    "oauth": {
+      "facebook": {
+        "key": "1102684163434904",
+        "secret": "0d7e7857255cc8a54343e6642b06d3e0",
+        "scope": ["email"]
+      },
+      "google": {
+        "key": "389411398527-p6fbmttl4q5ocdir0a5rlf51o07p66og.apps.googleusercontent.com",
+        "scope": ["email", "profile", "openid"],
+        "secret": "LhLR-ugq6SoQmKL-pU7y5Ayh"
+      },
+      "redirect": "/"
+    },
+    "secret": "f4wwE4ud40lJ/dsdfcUqIDaZhW8=",
+    "service": "users"
+  },
+  "client": "http://localhost:4444",
+  "host": "localhost",
+  "mailer": {
+    "auth": {
+      "pass": "ybgagncimepjeovx",
+      "user": "ffragalla@gmail.com"
+    },
+    "service": "gmail"
+  },
+  "paginate": {
+    "default": 10,
+    "max": 50
+  },
+  "port": 3030,
+  "postgres": "postgres://postgres:p@ssw0rd@localhost:5432/server",
+  "public": "../public/",
+  "swagger": {
+    "docsPath": "/docs",
+    "info": {
+      "description": "FREGO API. <br> Documentation",
+      "title": "FREGO"
+    },
+    "openApiVersion": 3,
+    "uiIndex": true
+  },
+  "algolia": {
+    "appId": "NNQHA0DF3W",
+    "apiKey": "d1bcf6f5b1c3fc957c855d96b7449a9c",
+    "active": false
+  },
+  "withEmailVerification": false
+}

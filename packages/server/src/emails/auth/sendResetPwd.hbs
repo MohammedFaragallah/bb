@@ -1,0 +1,9 @@
+{{> header}}
+
+<h1 style="font-family: Palatino;font-size: 1.5em;">Hi, {{name}}</h1>
+<p>We got a request to reset your password.</p><a href="{{tokenLink}}"
+  style="color: #2980B9;display: block;text-align: center;text-decoration: none;padding: 0.5em;font-size: 1.2em;border: 5px solid #2980B9;border-radius: 3px;margin: 1em;margin-right: auto;margin-left: auto;"
+  class="reset-btn">Reset Password</a>
+<p>If you ignore this message your password won't be changed.</p> {{> returnEmail}}
+
+{{> footer}}

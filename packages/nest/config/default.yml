@@ -1,0 +1,17 @@
+server:
+  appName: "Frego"
+  protocol: "http"
+  host: "localhost"
+  port: 3000
+
+authentication:
+  authStrategies: ["jwt", "local"]
+
+jwt:
+  secret: 6412aea723c5a8955201dc8c0a02ee625edd09b1f311ec9a15e66bd5ed5ef6892b4851ad447e430332b41ef2a63a1ef991726d0fc22b8f6b2c1d64eff6f3f59fc35484ca84e1fb600489a1c87eb0c6a69befc8d74aa451ad3a501a0f421690f305f3a34f15e02ea0818ea80fb4a73f9fca19659a7c70acf53765d57b21c383911ed8559535f3bd407f8ac83b086d30d8f90372d7215b899c8cc8b5c51bc74933e5fbfa64aba722c48d0fff2833793df0de50fd2bb306ecb8a15171fcb8510a4b521377eb0756585589deb10a76f320b5e00a61fd390c3066f160f9dadd5bd4908c9256523fa4a4b36c7d4f8b438e42f1e10246b095331b3f37e3912a2f4cde91
+  signOptions:
+    algorithm: HS256
+    expiresIn: 1d
+    header:
+      typ: access
+    issuer: nest

@@ -1,0 +1,23 @@
+{
+  "folders": [
+    {
+      "name": "Root",
+      "path": "."
+    },
+    {
+      "name": "App",
+      "path": "packages\\app"
+    },
+    {
+      "name": "Client",
+      "path": "packages\\client"
+    },
+    {
+      "name": "Server",
+      "path": "packages\\server"
+    },
+    {
+      "path": "packages\\nest"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "comment": "client must have protocol HTTP/S host must (NOT)",
+  "client": "https://fregoclient.herokuapp.com",
+  "host": "fregoserver.herokuapp.com",
+  "withEmailVerification": true
+}

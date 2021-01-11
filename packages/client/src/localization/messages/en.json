@@ -1,0 +1,116 @@
+{
+	"author": {
+		"joined": "Joined: ",
+		"viewAll": "View all {label} by {author}",
+		"writtenBy": "Written by {author}"
+	},
+	"emptyCategory": {
+		"helpfulLinks": "More {label}",
+		"message": "No {label} in {categoryName} yet!"
+	},
+	"filter": {
+		"results": "Results: {total, number}"
+	},
+	"label": {
+		"apply": "Apply",
+		"cancel": "Cancel",
+		"category": "Category",
+		"confirm": "Confirm",
+		"error": "Something went wrong",
+		"go": "Go to",
+		"height": "Height",
+		"helpful": "Helpful Links",
+		"items": "{items, plural,=0{# Items}one{# Item}two{# Items}other{# Items}}",
+		"lastUpdated": "Last Updated",
+		"lessThan": "Less Than",
+		"moreThan": "More Than",
+		"next": "Next",
+		"notfound": "Not Found",
+		"previous": "Previous",
+		"readingTime": "{minutes, plural,=0{# minutes}one{# minute}two{# minutes}other{# minutes}} read",
+		"related": "Related {label}",
+		"soon": "Soon",
+		"submit": "Submit",
+		"total": "Total",
+		"views": "{views, plural,=0{# views}one{# view}other{# views}}",
+		"weight": "Weight",
+		"welcome": "Welcome"
+	},
+	"login": {
+		"message": {
+			"addComment": "Login To Add Comment"
+		}
+	},
+	"message": {
+		"add": "Add",
+		"forgot": "Forgot your password? Reset",
+		"login": "Already have a user? Sign in",
+		"logout": "We are sorry to see you go and hope to see you soon",
+		"signup": "Don't have a user? Sign Up"
+	},
+	"nav": {
+		"actions": {
+			"close": "Close Actions",
+			"dashboard": "Dashboard",
+			"language": "Change Language",
+			"login": "Login",
+			"logout": "Logout",
+			"profile": "Profile",
+			"theme": "Toggle Light (WIP)"
+		}
+	},
+	"pageTitle": {
+		"firstAddress": "Main Address",
+		"secondAddress": "Secondary Address",
+		"articles": "Articles",
+		"cart": "Cart",
+		"champion": "Champion",
+		"community": "Community",
+		"events": "Events",
+		"exercises": "Exercises",
+		"forgot": "Forgot Password",
+		"home": "Home",
+		"login": "Sign In",
+		"privacy": "Privacy",
+		"profile": "Profile",
+		"reset": "Reset Password",
+		"signup": "Sign Up",
+		"sports": "Sport",
+		"store": "Store",
+		"terms": "Terms"
+	},
+	"search": {
+		"click": "Click here to search",
+		"placeholder": "Type To search..."
+	},
+	"section": {
+		"latestArticles": "Latest Articles"
+	},
+	"steps": {
+		"address": "Shipping Address",
+		"payment": "Payment details",
+		"review": "Review your order"
+	},
+	"store": {
+		"addToCart": "Add To Cart",
+		"available": "Available",
+		"checkout": "Checkout",
+		"flavor": "Flavor",
+		"flavorRating": "Total Flavor Rating",
+		"flavors": "{flavors, plural,=0{no flavors}one{# size}two{# flavors}other{# flavors}}",
+		"forms": {
+			"Bars": "Bars",
+			"Capsule": "Capsule",
+			"Liquid": "Liquid",
+			"Other": "Other",
+			"Powder": "Powder",
+			"Tablet": "Tablet",
+			"label": "Forms"
+		},
+		"fromTo": "From {gt,number,EGP} to {lt,number,EGP}",
+		"overview": "PRODUCT OVERVIEW",
+		"price": "Price",
+		"size": "Size",
+		"sizes": "{sizes, plural,=0{no sizes}one{# size}two{# sizes}other{# sizes}}"
+	}
+}
